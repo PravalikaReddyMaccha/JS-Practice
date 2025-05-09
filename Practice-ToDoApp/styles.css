@@ -1,0 +1,38 @@
+#activity-div{
+    display:flex;
+    flex-direction:row;
+    gap:20px;
+}
+#container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    
+}
+#child-container{
+    display:flex;
+    flex-direction:row;
+    gap:20px;
+}
+.activity{
+    padding:10px;
+}
+.dateClass{
+    padding:10px;
+}
+.bttn{
+    padding:10px;
+    width:80px;
+}
+#add{
+    background-color: rgb(3, 133, 3);
+}
+button{
+ background-color: red;
+}
+td {
+    padding-right: 20px;
+    padding-bottom:20px; 
+}
+  
