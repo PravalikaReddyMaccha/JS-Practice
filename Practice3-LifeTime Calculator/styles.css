@@ -1,0 +1,64 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    overflow: hidden; 
+    font-family: sans-serif;
+  }
+
+.container {
+    height: 100vh; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    flex-direction:column;  
+    gap:15px;
+    background-image: url('images/mountain.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    /* font-size:30px;
+    font-weight:bold; */
+
+}
+#heading {
+    font-size:40px;
+}
+#datepicker {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+}
+#bttn{
+  padding:5px;
+  background-color: rgb(3, 182, 3);
+  color:white;
+}
+#date{
+    padding:4px;
+}
+.hidden{
+    display:none;
+}
+#myTable {
+    border-collapse: separate;
+    border-spacing: 20px;
+    font-size:40px;
+    color:white;
+    font-weight:600;
+}
+#table-row1{
+    color:black;
+    font-weight:600;
+    font-size:45px;
+}
+  
