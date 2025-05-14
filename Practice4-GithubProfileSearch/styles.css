@@ -1,0 +1,81 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(235, 231, 235);
+}
+#container{
+    display:flex;
+    flex-direction:column;
+    gap:35px;
+    justify-content: center;
+    align-items:center;
+    height:100vh;
+}
+#search{
+    display:flex;
+    gap:10px;
+    
+}
+#search input{
+    padding:5px;
+}
+#search button{
+    padding:5px;
+}
+#card{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    width:500px;
+    height:250px;
+    gap:15px;
+    /* box-shadow: 6px 6px 6px 6px  */
+    box-shadow: 0px 0px 2px 2px rgb(209, 206, 206);
+    padding-top:30px;
+    padding-bottom:30px;
+    padding-left:20px;
+    padding-right:30px;
+}
+#checkProfile{
+    padding:6px;
+    background-color: yellow;
+    
+}
+#checkProfile a{
+    text-decoration: none;
+}
+#card:hover{
+    /* background-color: transparent; */
+    /* outline: 2px dashed; */
+    
+    transform: rotate(-0.01turn);
+}
+.content{
+    display:flex;
+    justify-content:space-between;
+}
+#name{
+    display:flex;
+    gap:20px;
+}
+#profileName{
+    font-size:21px;
+}
+#profilePhoto{
+    border-radius:50%;
+    height:80px;
+    width:80px;
+}
+.hidden{
+    display:none !important;
+}
+#searchBttn{
+    background-color: rgb(4, 181, 4);
+    padding:5px;
+}
+#invalid{
+    font-size:35px;
+}
