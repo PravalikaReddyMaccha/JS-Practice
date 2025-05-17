@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+:root {
+  --primary: #005a76;
+}
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+#title{
+  background-color: rgb(145, 243, 145);
+  text-align: center;
+  padding:12px;
+}
+#generate{
+    text-align:center;
+    padding:30px;
+    background-color: rgb(236, 230, 230);
+}
+#generate-bttn{
+    padding:8px;
+    background-color: rgb(133, 101, 200);
+}
+#container {
+  /* height: calc(100vh - 1px); */
+  height:calc(100vh - 157px); 
+  display: grid;
+  grid-template-rows: 4fr 4fr 3fr 2fr;
+}
+/* .color-div {
+  width: 100px;
+  height: 150px;
+  background-color: red;
+  margin: 10px;
+} */
