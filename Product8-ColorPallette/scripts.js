@@ -5,9 +5,15 @@ generateBttn.addEventListener('click',function(){
    
    let div = document.createElement("div");
    div.classList.add("color-div");
-   div.style.backgroundColor = getRandomColor(); 
-   document.querySelector("#container").appendChild(div);
-   
+   div.id = `div${i + 1}`;
+   let color = getRandomColor();  ;
+   div.style.backgroundColor = color;
+   let para = document.createElement("p");
+   para.classList.add("para");
+   para.textContent = color;
+    document.querySelector("#container").appendChild(div);
+    document.querySelector(`#div${i + 1}`).appendChild(para);
+  
 }
 function getRandomColor() {
       const letters = '0123456789ABCDEF';
@@ -17,4 +23,10 @@ function getRandomColor() {
       }
       return color;
 }
+})
+document.addEventListener('click',function(e){
+  if(e.target.tagName==='P'&&e.target.classList.contains("para")){
+    navigator.clipboard.writeText(e.target.textContent);
+    alert("The color id is copied");
+  }
 })
