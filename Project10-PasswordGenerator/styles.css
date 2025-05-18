@@ -1,0 +1,44 @@
+*{
+    margin:0px;
+    padding:opx;
+    box-sizing: border-box;
+}
+body{
+    min-height:100vh;
+    text-align: center;
+    align-content:center;
+    justify-items:center;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding:35px;
+    background-color: rgb(220, 147, 11);
+}
+#password{
+    background-color: aliceblue;
+    padding:15px;
+}
+#length{
+    margin:0 auto;
+}
+.options{
+    display:flex;
+    flex-direction: column;
+    gap:15px;
+}
+#length{
+    display:flex;
+    flex-direction: column;
+    width:150px;
+    gap:10px;
+}
+.characters{
+    display:flex;
+    justify-content: space-between;
+}
+#generate-bttn{
+    padding:10px;
+    background-color: rgb(71, 79, 226);
+}
