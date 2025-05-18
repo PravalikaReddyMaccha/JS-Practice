@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+   
+</head>
+<body>
+    <div id="container">
+            <h1>Search Github Profile</h1>
+        <div id="search">
+            <input id="userInput" type="text" placeholder="Enter the id">
+            <button id="searchBttn">Search</button>
+        </div>
+         <div id="card" class="hidden">
+           <div id="profile" class="content">
+              <div id="name">
+                 <img id="profilePhoto" src="" alt="image">
+                  <div id="id" class="numbers">
+                    <h1 id="profileName">AnshuRaj</h1>
+                    <p id="profileId">@ansh</p>
+                  </div>
+              </div>
+              <div id="profilelink">
+                <button id="checkProfile">
+                    <a id="profileLink" href="">Check Profile</a>
+                </button>
+              </div>
+           </div>
+          
+         <div id="about" class="numbers">
+            <h3>About</h3>
+            <p id="bio">followersCount</p>
+         </div>
+
+         <div id="followers" class="content">
+
+            <div class="numbers">
+                <h3>Followers</h3>
+                <p id="followersCount">10</p>
+            </div>
+            <div class="numbers">
+                <h3>Followings</h3>
+                <p id="followingCount">10</p>
+            </div>
+            <div class="numbers">
+                <h3>Repos</h3>
+                <p id="repos">10</p>
+            </div>
+
+          </div>
+
+         </div>
+         <div id="invalid" class="hidden">Invalid UserId</div>
+    </div>
+   
+    <script src = "scripts.js"></script>
+</body>
+ 
+</html>

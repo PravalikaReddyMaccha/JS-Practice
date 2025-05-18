@@ -1,0 +1,30 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+#container{
+    height:400px;
+    width:300px;
+    margin:0 auto;
+    margin-top:50px;
+    border:2px solid grey;
+}
+#ans{
+    width:200px;
+    height:30px;
+    border:2px solid grey;
+    margin-bottom:20px;
+    padding:23px;
+    
+}
+#numbers{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:10px;
+    width:200px;
+    margin:0 auto;
+}
+.num button{
+    padding:12px;
+}
